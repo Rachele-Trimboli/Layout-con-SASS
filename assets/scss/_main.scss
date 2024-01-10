@@ -4,6 +4,9 @@ $percent : 20%;
     margin: 30px;
     img{
         width: $percent;
-        @include grid(30%)
+        &:hover{
+            width:20.5%;
+            @include floating;
+        }
     }
 }
