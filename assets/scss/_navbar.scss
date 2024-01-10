@@ -1,0 +1,16 @@
+nav{
+    img{
+        width: 50px;
+    }
+    ul{
+        list-style-type: none;
+        @include column;
+        margin-top: 0px;
+        @media screen and (min-width:992px) {
+            @include row
+        }
+        
+    }
+    background-color: bisque;
+    @include fontStyle;
+}

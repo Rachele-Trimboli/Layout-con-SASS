@@ -1,0 +1,13 @@
+$buttons:(
+    first:$scopri-color,
+    second:$accedi-color,
+    third:$contattaci-color
+);
+@each $button,$value in $buttons{
+    .#{$button}{
+        background-color: $value;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+}

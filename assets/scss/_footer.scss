@@ -1,0 +1,7 @@
+footer{
+    background-color: rgb(12, 8, 2);
+    color: $text-color;
+    height: 8em;
+    @include row;
+  
+}

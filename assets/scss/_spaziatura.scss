@@ -1,0 +1,25 @@
+$padding: (
+    sm: 0.5em,
+    md: 1em,
+    lg:1.2em,
+    xl:1.5em,
+);
+$margin: (
+    sm: 5em,
+    md: 10em,
+    lg:15em,
+    xl:20em,
+);
+
+@each $p,$value in $padding{
+    .pa-#{$p}{
+        padding: #{$value};
+    }
+    
+}
+@each $m,$value in $margin{
+    .ma-#{$m}{
+        padding: #{$value};
+    }
+    
+}

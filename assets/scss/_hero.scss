@@ -1,0 +1,17 @@
+.hero{
+    margin: 30px;
+    @include column;
+    img{
+        width: 50%;
+    }
+    @media screen and (min-width:992px) {
+        @include row;
+    }
+    p{
+        width:80%;
+        @media screen and (min-width:992px) {
+            width: 30%;
+        }
+    }
+    background-color: bisque;
+}

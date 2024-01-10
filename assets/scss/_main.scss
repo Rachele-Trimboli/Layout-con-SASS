@@ -1,0 +1,9 @@
+$percent : 20%;
+.griglia{
+    @include row;
+    margin: 30px;
+    img{
+        width: $percent;
+        @include grid(30%)
+    }
+}
